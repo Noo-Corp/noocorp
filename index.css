@@ -101,6 +101,10 @@ header h1 {
   color: #670ba8;
 }
 
+.project-card:hover p {
+  color: #430d4b;
+}
+
 .project-card h3 {
   font-size: 1.2rem;
   margin-bottom: 4px;
