@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noo Corp</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <div class="page">
+    <div class="main-content">
+      <header>
+        <div class="container">
+          <h1>NOO CORP</h1>
+          <p class="tagline">- Know no bounds -</p>
+        </div>
+      </header>
+
+      <div class="container projects-columns">
+        <section class="section">
+          <h2 class="section-label apps">Apps</h2>
+          <div class="projects">
+            <a href="https://noospeak.com/" class="project-card">
+              <div>
+                <h3>Noo Speak</h3>
+                <p>Get foreign language news summaries on topics you choose, delivered as a free daily newsletter to help you practice the language you're learning. Select from over 30 languages and practice with automatically generated quizzes included with every newsletter.</p>
+              </div>
+              <div class="arrow">→</div>
+            </a>
+
+            <a href="https://nootab.com/" class="project-card">
+              <div>
+                <h3>Noo Tab</h3>
+                <p>A customizable new tab page designed for productivity. Add the tools you need — notes, checklists, trackers, and more — in modular panels that run independently. </p>
+              </div>
+              <div class="arrow">→</div>
+            </a>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section-label games">Games</h2>
+          <div class="projects">
+            <div class="project-card coming-soon">
+              <div>
+                <h3>Coming Soon</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <p>alex@alexmoica.com</p>
+      <div class="container">
+        <p>&copy; <span id="current-year"></span> NOO CORP</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+  </div>
+</body>
+</html>
